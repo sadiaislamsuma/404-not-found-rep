@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first Form</title>
+    <style>
+        lable{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Fill Up Your Information</h2>
+            <form>
+                <lable for="name">Your Name
+                    <input type="text" id="name" placeholder="Your Name">
+                </lable>
+                <lable for="email">Your Email
+                    <input type="email" id="email" placeholder="Your Email">
+
+                </lable>
+                <lable for="phone">Your Phone<input type="text" id="phone" placeholder="Your Phone">
+                </lable>
+                <fieldset>
+                    <legend>Pick One Item</legend>
+                    <label for="pen">
+                        <input type="radio" name="stationary" id="pen">Pen</label>
+
+                        <label for="book">
+                           <input type="radio" name="stationary" id="book">Book</label>
+
+                            <label for="pencil">
+                                <input type="radio" name="stationary" id="pencil">
+                                Pencil</label>
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pick One Or More Item</legend>
+                    <label for="sorisa">
+                        <input type="checkbox" name="vorta" id="Sorisa">
+                        Sorisa</label>
+
+                        <label for="sutki">
+                            <input type="checkbox" name="vorta" id="sutki">
+                            Sutki</label>
+
+                            <label for="mutki">
+                                <input type="checkbox" name="vorta" id="mutki">
+                                Mutki</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instructions</legend>
+                    <textarea name="" id="" cols="3" rows="5"> </textarea>
+                    </fieldset>
+
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>

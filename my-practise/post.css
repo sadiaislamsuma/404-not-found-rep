@@ -1,0 +1,27 @@
+nav>ul>li{
+    display: inline;
+    text-align: left;
+    margin-right: 10px;
+    
+    
+    color: blue;
+}
+    nav li>a{
+        text-decoration: none;
+    }
+    
+    h2{
+        color: blue;
+    }
+    time{
+        color: brown;
+    }
+    body{
+        background-color: bisque;
+        margin-left: 20px;
+    }
+    p{
+        font-size:larger;
+    }
+        
+    
